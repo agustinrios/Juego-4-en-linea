@@ -1,0 +1,27 @@
+# Archivos de Visual Studio
+.vs/
+
+# Carpetas de compilación
+bin/
+obj/
+
+# Archivos de usuario y configuraciones temporales
+*.csproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Configuración de paquetes y dependencias
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+# Archivos de log y sistema
+*.log
+logs/
+
+# Configuración específica del IDE
+.idea/
+*.iml
