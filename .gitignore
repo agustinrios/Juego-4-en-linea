@@ -2,8 +2,8 @@
 .vs/
 
 # Carpetas de compilación
-bin/
-obj/
+/bin
+/obj
 
 # Archivos de usuario y configuraciones temporales
 *.csproj.user

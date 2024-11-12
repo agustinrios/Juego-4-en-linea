@@ -1,5 +1,6 @@
 ﻿using System;
 using Tao.Sdl;
+using System.Media;
 
 namespace MyGame
 {
@@ -20,6 +21,7 @@ namespace MyGame
         static Image gameOverImage;
         static bool isRunning = true;
         static int estadoJuego = 0;
+        static SoundPlayer soundPlayer = new SoundPlayer("assets/music.wav");
 
         static void Main(string[] args)
         {
@@ -49,6 +51,7 @@ namespace MyGame
                 player2Image = Engine.LoadImage("assets/player2.png");
                 winImage = Engine.LoadImage("assets/win.jpg");
                 gameOverImage = Engine.LoadImage("assets/Gameover.png");
+                soundPlayer.PlayLooping();
             }
             catch (Exception e)
             {
